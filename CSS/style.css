@@ -13,7 +13,7 @@
     z-index: 9999;
 }
 
-.HandS{
+#HandS{
     background-color: rgb(195, 142, 245);
 }
 .card {
@@ -87,11 +87,11 @@
     margin-left: 48px;
 }
 
-.WE{
+#WE{
     background-color: burlywood;
 }
 
-.WA{
+#WA{
     background-color: rgb(221, 140, 140);
 }
 

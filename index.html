@@ -8,7 +8,45 @@
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 
+<style>
+    .headbar {
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    background-color: #B2B8A3;
+    width: 100%;
+    z-index: 3;
+    left: 0px;
+    margin: 0px;
+    font-size: 20px;
+}
+
+</style>
 <body style="background-color: rgb(3, 3, 3);">
+    
+    <div class="headbar">
+        <table border="3">
+            <thead>
+                <tr>
+                    <th>
+                        <a href="#profile">Profile</a>
+                    </th>
+                    <th>
+                        <a href="#HandS">Hobbies and Sports</a>
+                    </th>
+                    <th>
+                        <a href="#WE">Working Experiences</a>
+                    </th>
+                    <th>
+                        <a href="#WA">Working Abilities</a>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+
     <div class="hh">
         <table border="4">
             <thead>
@@ -28,7 +66,7 @@
         </table>
     </div>
 
-    <div class="profile">
+    <div id="profile">
     <div class="card">
         <div class="card__cover">
             <table cellspacing="30">
@@ -48,7 +86,7 @@
     </div>
 
     <hr>
-    <div class="HandS">
+    <div id="HandS">
     <div class="container">
         <div class="container__line"></div>
     
@@ -64,8 +102,10 @@
     
                 <div class="container__desc">
                     <ul>
-                        <li>Motorcycling</li>
-                        <li>Traveling</li>
+                        <h3><li>Motorcycling</li></h3>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Volutpat odio facilisis mauris sit amet massa vitae tortor. Ac orci phasellus egestas tellus rutrum tellus. Habitant morbi tristique senectus et netus et malesuada. Sed enim ut sem viverra aliquet eget. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper. Fames ac turpis egestas sed tempus. 
+                        <h3><li>Traveling</li></h3>
+                        Nisi quis eleifend quam adipiscing vitae proin sagittis. Tristique senectus et netus et malesuada. Urna et pharetra pharetra massa massa ultricies mi. Ipsum dolor sit amet consectetur adipiscing elit duis. Nulla aliquet enim tortor at auctor urna nunc id. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Rhoncus urna neque viverra justo nec ultrices. In massa tempor nec feugiat nisl pretium. Dignissim convallis aenean et tortor at risus viverra adipiscing. Pharetra massa massa ultricies mi quis hendrerit dolor magna. Ultricies integer quis auctor elit. Lacus sed turpis tincidunt id aliquet risus.
                     </ul>
                 </div>
             </li>
@@ -90,8 +130,10 @@
     
                 <div class="container__desc">
                     <ol type="i">
-                        <li>Basketball</li>
-                        <li>Billiard</li>
+                        <h3><li>Basketball</li></h3>
+                        Vulputate mi sit amet mauris. Sed faucibus turpis in eu mi bibendum. Id volutpat lacus laoreet non curabitur gravida arcu ac tortor. Suspendisse ultrices gravida dictum fusce. Eget arcu dictum varius duis. Blandit turpis cursus in hac habitasse platea. Nec dui nunc mattis enim ut tellus elementum. Feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat. Nunc lobortis mattis aliquam faucibus purus in massa tempor. Risus viverra adipiscing at in tellus integer. Leo vel orci porta non pulvinar neque laoreet suspendisse. In aliquam sem fringilla ut morbi tincidunt. Integer malesuada nunc vel risus commodo viverra. Aliquet nibh praesent tristique magna sit amet purus gravida. Vitae tortor condimentum lacinia quis vel eros donec ac odio. A diam sollicitudin tempor id eu nisl nunc mi ipsum. Accumsan tortor posuere ac ut.
+                        <h3><li>Billiard</li></h3>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero nunc consequat interdum varius sit amet. Auctor urna nunc id cursus metus aliquam. Mauris cursus mattis molestie a. Vulputate ut pharetra sit amet aliquam id diam maecenas ultricies. Sagittis orci a scelerisque purus semper eget duis at. Faucibus interdum posuere lorem ipsum dolor. Tristique magna sit amet purus gravida quis blandit. Amet mattis vulputate enim nulla aliquet. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Suscipit adipiscing bibendum est ultricies integer quis auctor elit. Amet nisl suscipit adipiscing bibendum est ultricies integer quis auctor.
                     </ol>
                 </div>
             </li>
@@ -102,8 +144,8 @@
 </div>
 
 <hr>
-    <div class="WE">
-    <h3>Working Experience</h3>
+    <div id="WE">
+    <h3>Working Experiences</h3>
     <table class="header" border="3">
            <thead>
                <tr>
@@ -124,8 +166,8 @@
 
     <hr>
 
-    <div class="WA">
-    <h3>Working Ability</h3>
+    <div id="WA">
+    <h3>Working Abilities</h3>
     <table cellspace="50">
         <tr>
             <td>Skills</td>
@@ -146,6 +188,7 @@
     </div>
 
     <hr>
+    <div id="contact">
     <table>
         <thead>
             <tr>
@@ -161,6 +204,6 @@
         <tbody>
         </tbody>
     </table>
-
+    </div>
 </body>
 </html>
